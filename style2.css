@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* bovenkant */
+#header{
+	margin-bottom: 1%;
+}
+
+#foto{
+	float: left;
+	width: 40%;
+	height: 100%;
+	overflow: auto;
+}
+
+.tekst{
+	margin-left: 42px;
+	font-size: 25pt;
+	overflow: hidden;
+	float: left;
+}
