@@ -4,8 +4,15 @@
 /* bovenkant*/
 #header{
 	margin-bottom: 1%;
+	
 }
 
+/*background: url(header_pos.jpg) no-repeat;*/
+/*
+#header:hover{
+	background: url(header_neg.jpg) no-repeat;
+}
+*/
 /* deel met werken */
 #wrapper{
 	width: 100%;
