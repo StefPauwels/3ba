@@ -2,6 +2,8 @@
 /* bovenkant */
 body{
 	font-family: 'Times New Roman';
+	letter-spacing: -0.2px;
+	line-height: 180%;
 }
 
 #header{
@@ -21,12 +23,14 @@ body{
 	font-size: 20pt;
 	float: left;
 	overflow: hidden;
+	margin-top: -2%;
 }
 
 .tekst2{
-	clear: both;
-	font-size: 35pt;
-	padding-top: 2%;
+	float: left;
+	margin-left: 42px;
+	font-size: 20pt;
+	padding-top: 10.5%;
 }
 
 @font-face {
@@ -38,16 +42,35 @@ body{
 
 }
 
+@font-face { 
+	font-family: 'Fashion-Extended'; 
+	src: url('Fashion-Extended.eot') format('embedded-opentype'), 
+		 url('Fashion-Extended.otf') format('opentype'), 
+		 url('Fashion-Extended.woff') format('woff'), 
+		 url('Fashion-Extended.ttf') format('truetype'), 
+		 url('Fashion-Extended.svg') format('svg'); font-weight: normal; font-style: normal; }
 
 input[type="text"]
 {
     font-family: 'fashion_revival_regularRg', Arial, sans-serif;
 	font-size: 80pt;
+	border: none;
+	border-color: transparent;
+	outline: none;
+}
+
+input[type="text2"]
+{
+    font-family: 'Fashion-Extended', Arial, sans-serif;
+	font-size: 80pt;
+	border: none;
+	border-color: transparent;
+	outline: none;
 }
 
 .inputdiv{
 	width: 100%;
-	padding-top: 0.5%;
+	padding-top: 3%;
 	clear: both;
 	height: 50%;
 }

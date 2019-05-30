@@ -2,6 +2,8 @@
 /* bovenkant */
 body{
 	font-family: 'Times New Roman';
+	letter-spacing: -0.2px;
+	line-height: 180%;
 }
 
 #header{
@@ -21,6 +23,7 @@ body{
 	font-size: 20pt;
 	float: left;
 	overflow: hidden;
+	margin-top: -2%;
 }
 
 .tekst2{
